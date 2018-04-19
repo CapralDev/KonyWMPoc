@@ -1,0 +1,359 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "08",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMessages",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "uf75b91ce9d2435c9dfb9217b788f1bd",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_1.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Wayne Stanley"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "9 June"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "15"
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "I am back, after few days"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymplistuserstatus.png"
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_2.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Lola Phillips"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "2 days ago"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "What do motivational thoughts do?"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_3.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Cordelia Murray"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Yesterday"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "22"
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Dream interpretation has many forms"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_4.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Ollie Logan"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 hours ago"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pain may sometimes be the reason"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_5.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Jeremy Graves"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "2 days ago"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Motivation is the key to positivity in our"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_1.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Adele Joseph"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Yesterday"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "8"
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Call - 28 min 14 s"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymplistuserstatus.png"
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_2.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Isaiah Hayes"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 hours ago"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Do you sometimes have the feeling that"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymplistuserstatus.png"
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_3.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Sally Gardner"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "9 June"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "I am back, after few days"
+                }
+            },
+            {
+                "imgActive": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgUser": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_user_image_4.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Abhishek Singh"
+                },
+                "lblLastSeen": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "13 July"
+                },
+                "lblPendingMessages": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1"
+                },
+                "lblSubHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Pain may sometimes be the reason"
+                }
+            }
+        ],
+        "rowTemplateId": "01d1fb267acf48ce89bed51319c61813",
+        "rowtemplate": "flxRowLocations",
+        "widgetdatamap": {
+            "flxImage": "flxImage",
+            "flxRowMessages": "flxRowMessages",
+            "imgActive": "imgActive",
+            "imgUser": "imgUser",
+            "lblHeader": "lblHeader",
+            "lblLastSeen": "lblLastSeen",
+            "lblPendingMessages": "lblPendingMessages",
+            "lblSubHeader": "lblSubHeader"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "SkypeMessage",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 8,
+    "rowfocusskin": "s5b750390a834bd9b481432030a4224c",
+    "rowskin": "s206008e50944e9d86f5636c4e4ce057",
+    "rowtemplate": "flxRowLocations",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sbd09807318f48aa81ca7eefbf09c1e5",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "d3d3d300",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxImage": "flxImage",
+        "flxRowMessages": "flxRowMessages",
+        "imgActive": "imgActive",
+        "imgUser": "imgUser",
+        "lblHeader": "lblHeader",
+        "lblLastSeen": "lblLastSeen",
+        "lblPendingMessages": "lblPendingMessages",
+        "lblSubHeader": "lblSubHeader"
+    },
+    "zindex": 1
+}
