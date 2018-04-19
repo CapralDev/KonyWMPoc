@@ -1,0 +1,24 @@
+{
+    "AS_Button_ca3c159648cd4957b819ffdf49668a3e": {
+        "id": "AS_Button_ca3c159648cd4957b819ffdf49668a3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPickList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c74fb1c2811040c2875f715644edb35a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__abb9b32bbb174791b17437f3e7fb184e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onIntegrationCall();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
