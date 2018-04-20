@@ -4,14 +4,24 @@ define({
 
     onPreShow:function()
     {
-     
-      this.onIntegrationCall();
       this.view.segList.removeAll();
+      this.onIntegrationCall();
+      
     },
   
     onIntegrationCall:function()
     {
-       var integrationClient = null;
+      displayLoadingScreen("Retrieving data ...");
+       controllerScope = this;
+       activeWHNumber = this.view.txtWarehouseNumber.text;
+      
+       WMGetPickingList(activeWHNumber, controllerScope.onSuccessCallback.bind(this), function(err){
+         dismissLoadingScreen();  
+         alert("Error invoking integration call:"+JSON.stringify(err));
+          });
+
+      
+ /*      var integrationClient = null;
        var serviceName = "WMPicking";
        var operationName = "getWMOPENPICKING";
        var params = { "lgnum" : this.view.txtWarehouseNumber.text};
@@ -31,7 +41,7 @@ define({
     alert(JSON.stringify(e));
 
     }
-
+*/
  },
   
     
@@ -63,13 +73,23 @@ define({
               var record = {};
               record.lblTransferOrderNumber = TO_HEADER[i].TANUM;
               record.lblCustomer = TO_HEADER[i].NAME1;
-              record.lblDate = TO_HEADER[i].BDATU;
+              record.lblDate = displaySAPDate(TO_HEADER[i].BDATU);
               data.push(record);
             }
           
             this.view.segList.addAll(data);
           }
         }
+        dismissLoadingScreen();
+  },
+  
+  onRowClick:function()
+  {
+    
+    var selectedRow = this.view.segList.selectedRowItems;  
+    activeTONumber = selectedRow[0].lblTransferOrderNumber;
+    
+    navigateToForm("frmTOItems");
   },
   
 });

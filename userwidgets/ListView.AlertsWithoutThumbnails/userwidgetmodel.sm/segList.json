@@ -63,10 +63,6 @@
     "mobile": {
         "_data_": [
             {
-                "imgArrow": {
-                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "chevron.png"
-                },
                 "lblCustomer": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "This article is floated online with an intent for an example."
@@ -85,10 +81,6 @@
                 }
             },
             {
-                "imgArrow": {
-                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "chevron.png"
-                },
                 "lblCustomer": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Here, I focus on a range of items and features that we use in life."
@@ -107,10 +99,6 @@
                 }
             },
             {
-                "imgArrow": {
-                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "chevron.png"
-                },
                 "lblCustomer": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Having used discount toner cartridges for twenty years, there are"
@@ -129,10 +117,6 @@
                 }
             },
             {
-                "imgArrow": {
-                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "chevron.png"
-                },
                 "lblCustomer": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "This article is floated online with an intent for an example."
@@ -151,10 +135,6 @@
                 }
             },
             {
-                "imgArrow": {
-                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "chevron.png"
-                },
                 "lblCustomer": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                     "text": "Here, I focus on a range of items and features that we use in life."
@@ -177,7 +157,6 @@
         "rowtemplate": "CopyCopyflxRow",
         "widgetdatamap": {
             "CopyCopyflxRow": "CopyCopyflxRow",
-            "imgArrow": "imgArrow",
             "lblCustomer": "lblCustomer",
             "lblDate": "lblDate",
             "lblStrip": "lblStrip",
@@ -217,7 +196,6 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "CopyCopyflxRow": "CopyCopyflxRow",
-        "imgArrow": "imgArrow",
         "lblCustomer": "lblCustomer",
         "lblDate": "lblDate",
         "lblStrip": "lblStrip",

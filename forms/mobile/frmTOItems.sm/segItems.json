@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgItemDrawing": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBinInfo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bin Information"
+            },
+            "lblItemNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblMaterialNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty: 0/10 EA"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgItemDrawing": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBinInfo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bin Information"
+            },
+            "lblItemNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblMaterialNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty: 0/10 EA"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgItemDrawing": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBinInfo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bin Information"
+            },
+            "lblItemNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblMaterial": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblMaterialNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty: 0/10 EA"
+            },
+            "lblStrip": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "142.73%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segItems",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e071a000aff64c4ba7869030d04895c4",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBody",
+    "pf": "frmTOItems",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a40a8ca00cc148af956236297b5a49db",
+    "rowcounter": 2,
+    "rowfocusskin": "s740fe5a9391444f9563c7b672d1bae4",
+    "rowskin": "s68db8035b6744bba45d81249044e4e1",
+    "rowtemplate": "CopyCopyflxRow0g3bd18fe97e84c",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sa245f76cdff4650a9b989d788468e5d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyCopyflxRow0g3bd18fe97e84c": "CopyCopyflxRow0g3bd18fe97e84c",
+        "FlexContainer0b888f7cc6f8845": "FlexContainer0b888f7cc6f8845",
+        "FlexContainer0ff0033e7e14146": "FlexContainer0ff0033e7e14146",
+        "imgItemDrawing": "imgItemDrawing",
+        "lblBinInfo": "lblBinInfo",
+        "lblItemNumber": "lblItemNumber",
+        "lblMaterial": "lblMaterial",
+        "lblMaterialNo": "lblMaterialNo",
+        "lblQty": "lblQty",
+        "lblStrip": "lblStrip"
+    },
+    "zindex": 1
+}

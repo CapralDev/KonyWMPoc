@@ -20,9 +20,11 @@ define({
             "name": "com.konymp.login"
         });
         kony.mvc.registry.add("CopyflxRowMessages1", "CopyflxRowMessages1", "CopyflxRowMessages1Controller");
+        kony.mvc.registry.add("CopyCopyflxRow0g3bd18fe97e84c", "CopyCopyflxRow0g3bd18fe97e84c", "CopyCopyflxRow0g3bd18fe97e84cController");
         kony.mvc.registry.add("CopyCopyflxRow", "CopyCopyflxRow", "CopyCopyflxRowController");
         kony.mvc.registry.add("frmLogin", "frmLogin", "frmLoginController");
         kony.mvc.registry.add("frmPickList", "frmPickList", "frmPickListController");
+        kony.mvc.registry.add("frmTOItems", "frmTOItems", "frmTOItemsController");
         setAppBehaviors();
     },
     postAppInitCallBack: function(eventObj) {},

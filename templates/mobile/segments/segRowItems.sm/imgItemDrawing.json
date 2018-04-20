@@ -3,13 +3,9 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "25%"
-    },
     "_height_": {
         "type": "string",
-        "value": "34.26%"
+        "value": "90%"
     },
     "_margin_": [
         0,
@@ -23,17 +19,17 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "3.50%"
-    },
-    "_skin_": "sb0d374dc3db4c43bc8bf159537354bc",
-    "_src_": "chevron.png",
+    "_skin_": "s19cb0941baa4eeba2f32c8b529d139e",
+    "_src_": "imagedrag.png",
     "_width_": {
         "type": "string",
-        "value": "5%"
+        "value": "90%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -42,19 +38,21 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "platform": "android",
+        "formID": "segRowItems",
         "templateType": "segments",
         "topLevelBox": null
     },
-    "id": "imgArrow",
+    "id": "imgItemDrawing",
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bc9f986f4b344d8eae5462d7b9246bb3",
+    "kuid": "ca7be93cc4b14f9fa7642d31edbd00b6",
     "name": "kony.ui.Image2",
-    "parent": "CopyCopyflxRow",
-    "pf": "CopytempSegRow",
+    "parent": "FlexContainer0ff0033e7e14146",
+    "pf": "segRowItems",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,

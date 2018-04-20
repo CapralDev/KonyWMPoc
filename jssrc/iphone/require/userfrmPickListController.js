@@ -1,26 +1,38 @@
 define({
     //Type your controller code here 
     onPreShow: function() {
-        this.onIntegrationCall();
         this.view.segList.removeAll();
+        this.onIntegrationCall();
     },
     onIntegrationCall: function() {
-        var integrationClient = null;
-        var serviceName = "WMPicking";
-        var operationName = "getWMOPENPICKING";
-        var params = {
-            "lgnum": this.view.txtWarehouseNumber.text
-        };
-        var headers = {}; //If there are no headers,pass null
-        var sdkClient = new kony.sdk.getCurrentInstance();
-        try {
-            integrationClient = sdkClient.getIntegrationService(serviceName);
-            integrationClient.invokeOperation(operationName, headers, params, this.onSuccessCallback, function(err) {
-                alert("Error invoking integration call:" + JSON.stringify(err));
-            });
-        } catch (e) {
-            alert(JSON.stringify(e));
-        }
+        displayLoadingScreen("Retrieving data ...");
+        controllerScope = this;
+        activeWHNumber = this.view.txtWarehouseNumber.text;
+        WMGetPickingList(activeWHNumber, controllerScope.onSuccessCallback.bind(this), function(err) {
+            dismissLoadingScreen();
+            alert("Error invoking integration call:" + JSON.stringify(err));
+        });
+        /*      var integrationClient = null;
+       var serviceName = "WMPicking";
+       var operationName = "getWMOPENPICKING";
+       var params = { "lgnum" : this.view.txtWarehouseNumber.text};
+       var headers = {};//If there are no headers,pass null
+       var sdkClient = new kony.sdk.getCurrentInstance();
+        
+       try{
+          integrationClient = sdkClient.getIntegrationService(serviceName);
+          integrationClient.invokeOperation(operationName, headers, params, this.onSuccessCallback  , function(err){
+            alert("Error invoking integration call:"+JSON.stringify(err));
+          });
+
+   
+
+  }catch(e){
+
+    alert(JSON.stringify(e));
+
+    }
+*/
     },
     onSuccessCallback: function(res) {
         kony.print("onSuccessCallback[" + JSON.stringify(res) + "]");
@@ -40,11 +52,17 @@ define({
                     var record = {};
                     record.lblTransferOrderNumber = TO_HEADER[i].TANUM;
                     record.lblCustomer = TO_HEADER[i].NAME1;
-                    record.lblDate = TO_HEADER[i].BDATU;
+                    record.lblDate = displaySAPDate(TO_HEADER[i].BDATU);
                     data.push(record);
                 }
                 this.view.segList.addAll(data);
             }
         }
+        dismissLoadingScreen();
+    },
+    onRowClick: function() {
+        var selectedRow = this.view.segList.selectedRowItems;
+        activeTONumber = selectedRow[0].lblTransferOrderNumber;
+        navigateToForm("frmTOItems");
     },
 });

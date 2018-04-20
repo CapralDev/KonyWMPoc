@@ -1,15 +1,15 @@
 //startup.js file
 var globalhttpheaders = {};
 var appConfig = {
-    appId: "CapralWM",
-    appName: "CapralWM",
+    appId: "KonyWMPoc",
+    appName: "KonyWMPoc",
     appVersion: "1.0.0",
     platformVersion: null,
     serverIp: "192.168.250.120",
     serverPort: "80",
     secureServerPort: "443",
     isDebug: true,
-    middlewareContext: "CapralWM",
+    middlewareContext: "KonyWMPoc",
     isturlbase: "https://capral-uat.konycloud.com/services",
     isMFApp: true,
     appKey: "9bf924e5ebff1bd89370ac4433e085ee",
@@ -45,9 +45,11 @@ var appConfig = {
             }
         }
     },
-    eventTypes: [],
-    url: "https://capral-uat.konycloud.com/CapralWM/MWServlet",
-    secureurl: "https://capral-uat.konycloud.com/CapralWM/MWServlet"
+    svcDocRefresh: false,
+    svcDocRefreshTimeSecs: -1,
+    eventTypes: ["FormEntry", "Error", "Crash"],
+    url: "https://capral-uat.konycloud.com/KonyWMPoc/MWServlet",
+    secureurl: "https://capral-uat.konycloud.com/KonyWMPoc/MWServlet"
 };
 sessionID = "";
 
