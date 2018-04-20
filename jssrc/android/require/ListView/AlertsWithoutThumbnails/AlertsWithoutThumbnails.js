@@ -16,31 +16,26 @@ define(function() {
         var segList = new kony.ui.SegmentedUI2({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "data": [{
-                "imgArrow": "chevron.png",
                 "lblCustomer": "This article is floated online with an intent for an example.",
                 "lblDate": "2 days ago",
                 "lblStrip": "L",
                 "lblTransferOrderNumber": "System Notification"
             }, {
-                "imgArrow": "chevron.png",
                 "lblCustomer": "Here, I focus on a range of items and features that we use in life.",
                 "lblDate": "Yesterday",
                 "lblStrip": "",
                 "lblTransferOrderNumber": "System Notification"
             }, {
-                "imgArrow": "chevron.png",
                 "lblCustomer": "Having used discount toner cartridges for twenty years, there are",
                 "lblDate": "Yesterday",
                 "lblStrip": "",
                 "lblTransferOrderNumber": "System Notification"
             }, {
-                "imgArrow": "chevron.png",
                 "lblCustomer": "This article is floated online with an intent for an example.",
                 "lblDate": "Yesterday",
                 "lblStrip": "",
                 "lblTransferOrderNumber": "System Notification"
             }, {
-                "imgArrow": "chevron.png",
                 "lblCustomer": "Here, I focus on a range of items and features that we use in life.",
                 "lblDate": "Yesterday",
                 "lblStrip": "L",
@@ -69,7 +64,6 @@ define(function() {
             "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
             "widgetDataMap": {
                 "CopyCopyflxRow": "CopyCopyflxRow",
-                "imgArrow": "imgArrow",
                 "lblCustomer": "lblCustomer",
                 "lblDate": "lblDate",
                 "lblStrip": "lblStrip",

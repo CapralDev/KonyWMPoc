@@ -28,7 +28,8 @@
     "canUpdateUI": true,
     "children": [
         "flxWHNumber",
-        "flxMain"
+        "flxMain",
+        "PaddedButtonRound"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -6,6 +6,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
     "_margin_": [
         1,
         1,
@@ -18,19 +22,11 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "9%"
-    },
-    "_skin_": "s72f5d68abba4a29b414595cf0a6ace2",
-    "_text_": "10/01/2018",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
+    "_skin_": "s75233d00e5a48aaade2797a7e061ada",
+    "_text_": "Warehouse Number",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "29.33%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,10 +36,13 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblDate",
+    "id": "lblWarehouseNumber",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,11 +54,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "48a3223d40f143de826b5a89fa00ae47",
+    "kuid": "g4afb150a416435a90d516ac715b04fd",
     "name": "kony.ui.Label",
-    "parent": "CopyCopyflxRow",
-    "pf": "CopytempSegRow",
+    "parent": "flxHeader",
+    "pf": "frmTOItems",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

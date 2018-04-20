@@ -52,7 +52,7 @@
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="win8bgagentnamespace" value=""/>
     <attributes name="apmgestureswipe" value=""/>
-    <attributes name="appnamekey" value="CapralWM"/>
+    <attributes name="appnamekey" value="KonyWMPoc"/>
     <attributes name="currentgaversion" value="8.1.16.v201804031743"/>
     <attributes name="wp10sharedUserCertificates" value="false"/>
     <attributes name="winphone_allowselfsignedcertificate" value="None"/>
@@ -126,7 +126,7 @@
     <attributes name="wp10pfxkey" value=""/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="MOUNT_FORMAT_FILESYSTEMS" value="false"/>
-    <attributes name="lastmodifiedtime" value="1524014292068"/>
+    <attributes name="lastmodifiedtime" value="1524191637978"/>
     <attributes name="ipad_notificationicon_1x_20" value=""/>
     <attributes name="iphone_spotlighticon_2x_40" value=""/>
     <attributes name="wp10microphone" value="false"/>
@@ -154,7 +154,7 @@
     <attributes name="windesktop_disableapplicationminimize" value="false"/>
     <attributes name="iphone_notificationicon_2x_20" value=""/>
     <attributes name="SEND_SMS" value="false"/>
-    <attributes name="iphonebundleidentifierkey" value="com.kony.CapralWM"/>
+    <attributes name="iphonebundleidentifierkey" value="com.kony.KonyWMPoc"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
     <attributes name="READ_HISTORY_BOOKMARKS" value="false"/>
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
@@ -221,7 +221,7 @@
     <attributes name="READ_SYNC_STATS" value="false"/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
     <attributes name="androidscreenextralarge" value="true"/>
-    <attributes name="win8displaynamekey" value="CapralWM"/>
+    <attributes name="win8displaynamekey" value="KonyWMPoc"/>
     <attributes name="SET_TIME_ZONE" value="false"/>
     <attributes name="ID_CAP_MICROPHONE" value="true"/>
     <attributes name="win8versionmajorkey" value="1"/>
@@ -308,7 +308,7 @@
     <attributes name="wp8packagepublisherkey" value="Kony"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="bb10urlscheme" value=""/>
-    <attributes name="apppackagekey" value="com.orgname.CapralWM"/>
+    <attributes name="apppackagekey" value="com.orgname.KonyWMPoc"/>
     <attributes name="andtargetsdkkey" value="4.0 (14)"/>
     <attributes name="win8bgagentclassname" value=""/>
     <attributes name="wp81sdescriptionkey" value="Sample Test Application"/>
@@ -406,7 +406,7 @@
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="apploadeventkey" value="None"/>
-    <attributes name="support64bit" value="true"/>
+    <attributes name="support64bit" value="false"/>
     <attributes name="tcbb400basefontsize" value="14"/>
     <attributes name="wp10enablecrashlogkey" value="false"/>
     <attributes name="proximity" value="false"/>
@@ -436,7 +436,7 @@
     <attributes name="ACCESS_NETWORK_STATE" value="true"/>
     <attributes name="sharedUserCertificates" value="false"/>
     <attributes name="win8pvkkey" value=""/>
-    <attributes name="UseOpenSSLLibrary" value="false"/>
+    <attributes name="UseOpenSSLLibrary" value="true"/>
     <attributes name="codeGeneration" value="false"/>
     <attributes name="WRITE_SMS" value="false"/>
     <attributes name="access_phone" value="false"/>
@@ -560,7 +560,7 @@
     <attributes name="musicLibrary" value="false"/>
     <attributes name="READ_LOGS" value="false"/>
     <attributes name="wp8flipmediumkey" value=""/>
-    <attributes name="appidkey" value="CapralWM"/>
+    <attributes name="appidkey" value="KonyWMPoc"/>
     <attributes name="iospopuptransitioncorrection" value="true"/>
     <attributes name="androidloadindicatorkey" value="true"/>
     <attributes name="CONTROL_LOCATION_UPDATES" value="false"/>

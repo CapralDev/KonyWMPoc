@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "28%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "3.97%"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s1cb82c103854acb9a9622460be47c1c",
-    "_text_": "",
+    "_skin_": "s6f69d5f31674f3f8046965a8a9109eb",
+    "_text_": "Material",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "7.89%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "45%"
     },
     "_wrapping_": 2,
     "android": {
@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblStrip",
+    "id": "lblMaterialNo",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +56,14 @@
         }
     },
     "isvisible": true,
-    "kuid": "ab3912b9c9de440491533ea2af2b3d7b",
+    "kuid": "b1d3e9c8946b45939deb3e18b76495d8",
     "maxwidth": {
         "type": "string",
-        "value": "1%"
+        "value": "50%"
     },
     "name": "kony.ui.Label",
-    "parent": "CopyCopyflxRow",
-    "pf": "CopytempSegRow",
+    "parent": "FlexContainer0b888f7cc6f8845",
+    "pf": "segRowItems",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

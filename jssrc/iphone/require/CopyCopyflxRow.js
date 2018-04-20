@@ -3,7 +3,7 @@ define("CopyCopyflxRow", function() {
         var CopyCopyflxRow = new kony.ui.FlexContainer({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "clipBounds": true,
-            "height": "11%",
+            "height": "15%",
             "id": "CopyCopyflxRow",
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
@@ -16,7 +16,7 @@ define("CopyCopyflxRow", function() {
             "isVisible": true,
             "left": "4%",
             "maxWidth": "50%",
-            "skin": "CopysknLblHeading",
+            "skin": "sknLblHeading",
             "text": "Transfer Order Number",
             "textStyle": {},
             "top": "8%",
@@ -70,22 +70,6 @@ define("CopyCopyflxRow", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
-        var imgArrow = new kony.ui.Image2({
-            "bottom": "25%",
-            "centerY": "50%",
-            "height": "34.26%",
-            "id": "imgArrow",
-            "isVisible": true,
-            "right": "3.50%",
-            "skin": "CopyCopyslImage1",
-            "src": "chevron.png",
-            "width": "5%",
-            "zIndex": 1
-        }, {
-            "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-            "padding": [0, 0, 0, 0],
-            "paddingInPixel": false
-        }, {});
         var lblStrip = new kony.ui.Label({
             "height": "100%",
             "id": "lblStrip",
@@ -105,7 +89,7 @@ define("CopyCopyflxRow", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
-        CopyCopyflxRow.add(lblTransferOrderNumber, lblCustomer, lblDate, imgArrow, lblStrip);
+        CopyCopyflxRow.add(lblTransferOrderNumber, lblCustomer, lblDate, lblStrip);
         return CopyCopyflxRow;
     }
 })

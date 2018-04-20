@@ -4,10 +4,6 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "imgArrow": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "chevron.png"
-            },
             "lblCustomer": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Customer name"
@@ -26,10 +22,6 @@
             }
         },
         {
-            "imgArrow": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "chevron.png"
-            },
             "lblCustomer": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Customer name"
@@ -48,10 +40,6 @@
             }
         },
         {
-            "imgArrow": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "chevron.png"
-            },
             "lblCustomer": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Customer name"
@@ -72,7 +60,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "94.62%"
+        "value": "100%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -109,6 +97,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segList",
+    "ide_onRowClick": "AS_Segment_d0a12464fdba416782fe5888db0b3f82",
     "info": null,
     "ipad": {
         "psp": {
@@ -117,7 +106,7 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "indicator": "none"
         }
     },
     "iscustomlayout": false,
@@ -160,7 +149,6 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "CopyCopyflxRow": "CopyCopyflxRow",
-        "imgArrow": "imgArrow",
         "lblCustomer": "lblCustomer",
         "lblDate": "lblDate",
         "lblStrip": "lblStrip",

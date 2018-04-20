@@ -21,7 +21,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "CopyCopyflxRow"
+        "CopyCopyflxRow0g3bd18fe97e84c"
     ],
     "containerId": true,
     "containerweight": 100,
@@ -29,7 +29,7 @@
     "device": "GalaxyS5",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "CopytempSegRow",
+    "id": "segRowItems",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -37,7 +37,7 @@
         "formTransition": "None"
     },
     "isvisible": true,
-    "kuid": "5b5ada69c50746feba6a40270fa09838",
+    "kuid": "a40a8ca00cc148af956236297b5a49db",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {

@@ -1,0 +1,29 @@
+{
+    "AS_Button_cd1285f4885e4ababd39a8eb997c9197": {
+        "id": "AS_Button_cd1285f4885e4ababd39a8eb997c9197",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPickList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c74fb1c2811040c2875f715644edb35a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___j4cc7c5ad18749dcaac900c753013263",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLogin",
+            "formKUID": "c00e9097cea546859dd5f05a7b494934",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

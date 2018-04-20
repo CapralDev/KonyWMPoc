@@ -103,7 +103,7 @@ define("frmPickList", function() {
             var flxMain = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "613dp",
+                "height": "520dp",
                 "id": "flxMain",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -117,30 +117,28 @@ define("frmPickList", function() {
             var segList = new kony.ui.SegmentedUI2({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "data": [{
-                    "imgArrow": "chevron.png",
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
                     "lblStrip": "",
                     "lblTransferOrderNumber": "Transfer Order Number"
                 }, {
-                    "imgArrow": "chevron.png",
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
                     "lblStrip": "",
                     "lblTransferOrderNumber": "Transfer Order Number"
                 }, {
-                    "imgArrow": "chevron.png",
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
                     "lblStrip": "",
                     "lblTransferOrderNumber": "Transfer Order Number"
                 }],
                 "groupCells": false,
-                "height": "94.62%",
+                "height": "100%",
                 "id": "segList",
                 "isVisible": true,
                 "left": "0dp",
                 "needPageIndicator": true,
+                "onRowClick": controller.AS_Segment_d0a12464fdba416782fe5888db0b3f82,
                 "pageOffDotImage": "pageoffdot.png",
                 "pageOnDotImage": "pageondot.png",
                 "retainSelection": false,
@@ -158,7 +156,6 @@ define("frmPickList", function() {
                 "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
                 "widgetDataMap": {
                     "CopyCopyflxRow": "CopyCopyflxRow",
-                    "imgArrow": "imgArrow",
                     "lblCustomer": "lblCustomer",
                     "lblDate": "lblDate",
                     "lblStrip": "lblStrip",
@@ -173,12 +170,46 @@ define("frmPickList", function() {
                 "bounces": true,
                 "editStyle": constants.SEGUI_EDITING_STYLE_NONE,
                 "enableDictionary": false,
-                "indicator": constants.SEGUI_ROW_SELECT,
+                "indicator": constants.SEGUI_NONE,
                 "progressIndicatorColor": constants.PROGRESS_INDICATOR_COLOR_WHITE,
                 "showProgressIndicator": true
             });
             flxMain.add(segList);
-            this.add(flxWHNumber, flxMain);
+            var PaddedButtonRound = new kony.ui.FlexContainer({
+                "centerX": "50%",
+                "clipBounds": true,
+                "height": "10%",
+                "id": "PaddedButtonRound",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "masterType": constants.MASTER_TYPE_USERWIDGET,
+                "skin": "slFbox0a7fc81c51a2545",
+                "width": "100%",
+                "zIndex": 1
+            }, {}, {});
+            PaddedButtonRound.setDefaultUnit(kony.flex.DP);
+            var btnLogout = new kony.ui.Button({
+                "bottom": "5dp",
+                "focusSkin": "ButtonSkinActive",
+                "id": "btnLogout",
+                "isVisible": true,
+                "left": "10dp",
+                "onClick": controller.AS_Button_cd1285f4885e4ababd39a8eb997c9197,
+                "right": "10dp",
+                "skin": "ButtonSkinNormal",
+                "text": "Logout",
+                "top": "5dp",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "displayText": true,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "showProgressIndicator": true
+            });
+            PaddedButtonRound.add(btnLogout);
+            this.add(flxWHNumber, flxMain, PaddedButtonRound);
         };
         return [{
             "addWidgets": addWidgetsfrmPickList,
