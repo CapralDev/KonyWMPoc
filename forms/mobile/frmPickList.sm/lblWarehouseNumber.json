@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5.80%"
+        "value": "8.00%"
     },
     "_margin_": [
         1,
@@ -38,7 +38,7 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "76.27%"
+        "value": "42.04%"
     },
     "containerweight": 100,
     "contentalignment": 4,
