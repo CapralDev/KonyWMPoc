@@ -24,7 +24,9 @@
     "canUpdateUI": true,
     "children": [
         "lblTransferOrderNumber",
+        "lblTransferOrderNumberDisplay",
         "lblCustomer",
+        "lblPickStatus",
         "lblDate",
         "lblStrip"
     ],

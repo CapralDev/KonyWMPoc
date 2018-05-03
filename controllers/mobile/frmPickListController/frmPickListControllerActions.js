@@ -22,5 +22,10 @@ define({
     AS_Form_g596627881d94a39b34284034369cc90: function AS_Form_g596627881d94a39b34284034369cc90(eventobject) {
         var self = this;
         this.onPreShow();
+    },
+    /** onDone defined for txtWarehouseNumber **/
+    AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30: function AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30(eventobject, changedtext) {
+        var self = this;
+        this.onIntegrationCall();
     }
 });

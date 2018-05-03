@@ -126,7 +126,7 @@
     <attributes name="wp10pfxkey" value=""/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="MOUNT_FORMAT_FILESYSTEMS" value="false"/>
-    <attributes name="lastmodifiedtime" value="1524191637978"/>
+    <attributes name="lastmodifiedtime" value="1525269507905"/>
     <attributes name="ipad_notificationicon_1x_20" value=""/>
     <attributes name="iphone_spotlighticon_2x_40" value=""/>
     <attributes name="wp10microphone" value="false"/>
@@ -162,7 +162,7 @@
     <attributes name="winphn81bgagentpath" value=""/>
     <attributes name="secondarytilefunctionkey" value="None"/>
     <attributes name="Internet(Client_AND_Server)" value="true"/>
-    <attributes name="CAMERA" value="false"/>
+    <attributes name="CAMERA" value="true"/>
     <attributes name="winphoneurlscheme" value=""/>
     <attributes name="iphone_spotlighticon_3x_29" value=""/>
     <attributes name="ID_CAP_CONTACTS" value="true"/>
@@ -181,7 +181,7 @@
     <attributes name="access_pimdomain_messages" value="false"/>
     <attributes name="bgcolorkey" value="255,255,255"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
-    <attributes name="ACCESS_FINE_LOCATION" value="false"/>
+    <attributes name="ACCESS_FINE_LOCATION" value="true"/>
     <attributes name="win8enablecrashlogkey" value="false"/>
     <attributes name="iphoneipadglossyeffectkey" value="false"/>
     <attributes name="tcnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>

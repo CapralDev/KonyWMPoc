@@ -55,7 +55,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "g541041100eb4f8db8f0c9b293dc6e5c",
     "name": "kony.ui.Label",
     "parent": "flxHeaderDetail",

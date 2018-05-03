@@ -19,8 +19,10 @@ var appConfig = {
         "selflink": "https://100008224.auth.konycloud.com/appconfig",
         "identity_meta": {},
         "integsvc": {
-            "WMPicking": "https://capral-uat.konycloud.com/services/WMPicking"
+            "WMPicking": "https://capral-uat.konycloud.com/services/WMPicking",
+            "WMConfirmPick": "https://capral-uat.konycloud.com/services/WMConfirmPick"
         },
+        "service_doc_etag": "000001631EBDBFF0",
         "appId": "83894653-e0f1-471c-97c9-8f2d1849f96d",
         "identity_features": {
             "reporting_params_header_allowed": true
@@ -42,6 +44,18 @@ var appConfig = {
                 "type": "integsvc",
                 "version": "1.0",
                 "url": "https://capral-uat.konycloud.com/services/WMPicking"
+            },
+            "WMConfirmPick": {
+                "type": "integsvc",
+                "version": "1.0",
+                "url": "https://capral-uat.konycloud.com/services/WMConfirmPick"
+            },
+            "WMObjectService": {
+                "offline": false,
+                "metadata_url": "https://capral-uat.konycloud.com/services/metadata/v1/WMObjectService",
+                "type": "objectsvc",
+                "version": "1.0",
+                "url": "https://capral-uat.konycloud.com/services/data/v1/WMObjectService"
             }
         }
     },

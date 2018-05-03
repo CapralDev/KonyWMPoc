@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "35%"
+        "value": "31.94%"
     },
     "_margin_": [
         0,
@@ -22,12 +22,12 @@
         0,
         0
     ],
-    "_placeholder_": "",
+    "_placeholder_": "Enter a value",
     "_skin_": "sb615c83b5594c0bac01f57ee037cdea",
-    "_text_": "410",
+    "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "32.00%"
+        "value": "34.72%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -42,8 +42,10 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
+    "disabledSkins": {},
     "focusskin": "s7b89cbec2214b16a2c5f2954028312c",
     "id": "txtWarehouseNumber",
+    "ide_onDone": "AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30",
     "info": null,
     "iphone": {
         "psp": {

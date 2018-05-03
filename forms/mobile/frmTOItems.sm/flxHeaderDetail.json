@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "13.91%"
+        "value": "12%"
     },
     "_margin_": [
         0,
@@ -36,11 +36,12 @@
         "value": "49.98%"
     },
     "children": [
-        "CopylblWarehouseNumber0g7dc387918c449",
-        "CopylblWarehouseNumber0a64eabff27bb41",
         "lblTONumberFieldValue",
+        "lblTONumberDisplay",
         "lblCreateDate",
-        "lblCustomerFieldValue"
+        "lblCustomerFieldValue",
+        "lblOverallStatus",
+        "flxRefresh"
     ],
     "clipbounds": true,
     "containerweight": 100,

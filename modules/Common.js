@@ -45,3 +45,23 @@ function printLog(message)
 {
   kony.print("XXXXX:"+message);
 }
+
+function setImageCache(imageName, imageBinary)
+{
+  kony.store.setItem("IMAGE_CACHE_"+imageName, imageBinary);
+}
+
+function getImageCache(imageName)
+{
+   return kony.store.getItem("IMAGE_CACHE_"+imageName);
+}
+
+function setWarehouseNumber(warehouseNumber)
+{
+  kony.store.setItem("DEFAULT_WAREHOUSE", warehouseNumber);
+}
+
+function getWarehouseNumber()
+{
+   return kony.store.getItem("DEFAULT_WAREHOUSE");
+}

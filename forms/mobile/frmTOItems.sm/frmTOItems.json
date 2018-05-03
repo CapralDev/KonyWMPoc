@@ -43,7 +43,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone8",
+    "device": "Pixel",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmTOItems",
@@ -98,13 +98,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "iPhoneX",
+    "platform": "android",
+    "prevDevice": "GalaxyS3",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone8",
+    "shellCSS": "and_Pixel",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

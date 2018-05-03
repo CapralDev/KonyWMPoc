@@ -37,8 +37,13 @@
     "canUpdateUI": true,
     "children": [
         "lblItemNumber",
+        "lblConfirmQty",
+        "lblCaseNumber",
+        "lblDrawing",
         "lblMaterialNo",
+        "lblMaterialNoDisplay",
         "lblQty",
+        "lblPickStatus",
         "lblMaterial",
         "lblBinInfo",
         "lblStrip"

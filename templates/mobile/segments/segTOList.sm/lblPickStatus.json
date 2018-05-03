@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s72f5d68abba4a29b414595cf0a6ace2",
+    "_text_": "Qty: Conf:",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "maxNumberOfLines": 3,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "textTruncatePosition": 0
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 3,
+    "id": "lblPickStatus",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "maxNumberOfLines": 3,
+        "psp": {
+            "wrapping": 2
+        },
+        "textTruncatePosition": 0
+    },
+    "isvisible": true,
+    "kuid": "h12fa916de304041a4c29b1086c8a362",
+    "maxnumberoflines": 3,
+    "maxwidth": {
+        "type": "string",
+        "value": "70%"
+    },
+    "name": "kony.ui.Label",
+    "parent": "CopyCopyflxRow",
+    "pf": "segTOList",
+    "textstyle": {},
+    "texttruncateposition": 0,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

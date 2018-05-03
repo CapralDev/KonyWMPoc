@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "46.26%"
+        "value": "81.94%"
     },
     "_margin_": [
         1,
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s75233d00e5a48aaade2797a7e061ada",
-    "_text_": "Created",
+    "_text_": "EA",
     "_width_": {
-        "type": "string",
-        "value": "18%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -38,11 +38,11 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "20%"
+        "value": "62.77%"
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "CopylblWarehouseNumber0a64eabff27bb41",
+    "id": "lblUOM",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f9fb173079db4dd29437a1aa43e36396",
+    "kuid": "cf6b6dea273642c48de1ca3b96140a12",
     "name": "kony.ui.Label",
-    "parent": "flxHeaderDetail",
-    "pf": "frmTOItems",
+    "parent": "flxReqQty",
+    "pf": "frmConfirmPick",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
