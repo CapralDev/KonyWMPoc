@@ -44,6 +44,25 @@ define("CopyCopyflxRow0g3bd18fe97e84c", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
+        var lblDrawing = new kony.ui.Label({
+            "height": "28%",
+            "id": "lblDrawing",
+            "isVisible": false,
+            "left": "14%",
+            "maxWidth": "50%",
+            "skin": "sknLblHeading",
+            "textStyle": {},
+            "top": "18%",
+            "width": "45%",
+            "zIndex": 1
+        }, {
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, {
+            "textCopyable": false,
+            "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+        });
         var lblMaterialNo = new kony.ui.Label({
             "height": "28%",
             "id": "lblMaterialNo",
@@ -147,7 +166,7 @@ define("CopyCopyflxRow0g3bd18fe97e84c", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
-        FlexContainer0b888f7cc6f8845.add(lblItemNumber, lblMaterialNo, lblQty, lblMaterial, lblBinInfo, lblStrip);
+        FlexContainer0b888f7cc6f8845.add(lblItemNumber, lblDrawing, lblMaterialNo, lblQty, lblMaterial, lblBinInfo, lblStrip);
         var FlexContainer0ff0033e7e14146 = new kony.ui.FlexContainer({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "clipBounds": true,

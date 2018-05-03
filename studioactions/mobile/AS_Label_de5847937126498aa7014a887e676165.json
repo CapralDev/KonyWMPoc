@@ -1,0 +1,30 @@
+{
+    "AS_Label_de5847937126498aa7014a887e676165": {
+        "id": "AS_Label_de5847937126498aa7014a887e676165",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmConfirmPick",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be77092a74524fb092c400300915c4e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b09bbed9b839474ea8a0cf5cec1794a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.launchBarcode();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

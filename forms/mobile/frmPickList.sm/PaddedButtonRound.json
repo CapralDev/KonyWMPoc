@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "8%"
     },
     "_margin_": [
         0,
@@ -25,12 +25,8 @@
         "value": "100%"
     },
     "allboxes": [],
-    "android": {
-        "height": {
-            "type": "string",
-            "value": "45dp"
-        }
-    },
+    "android": {},
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",

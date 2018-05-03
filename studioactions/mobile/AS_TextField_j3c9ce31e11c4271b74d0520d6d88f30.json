@@ -1,0 +1,27 @@
+{
+    "AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30": {
+        "id": "AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmPickList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c74fb1c2811040c2875f715644edb35a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e9bbff882f4e4d4f902c53647b8d8a48",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onIntegrationCall();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

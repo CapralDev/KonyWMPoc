@@ -4,11 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "70%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "-5.92%"
+        "value": "85%"
     },
     "_margin_": [
         6,
@@ -24,6 +20,10 @@
     ],
     "_skin_": "s6e532d4d42a4ba2be942f0eededa606",
     "_text_": "Refresh",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
@@ -38,7 +38,7 @@
     "displaytext": true,
     "focusskin": "s04c0a1aa8dd4fbf93118a0c6e053375",
     "id": "btnRefresh",
-    "ide_onClick": "AS_Button_b8cbbf2b4d214963906c0e9c06a0f614",
+    "ide_onClick": "AS_Button_ie9d3a56909c47e990d81a60493870dd",
     "info": null,
     "isvisible": true,
     "kuid": "b0a30f87ab924869b1a7340ae99711bd",

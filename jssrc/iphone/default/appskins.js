@@ -71,6 +71,7 @@ function skinsInit() {
     sknButton = "sknButton";
     sknFieldLabel = "sknFieldLabel";
     sknFieldLabelLite = "sknFieldLabelLite";
+    sknFlexDetail = "sknFlexDetail";
     sknFlxHeader = "sknFlxHeader";
     sknFlxHeaderDetails = "sknFlxHeaderDetails";
     sknLabelFieldValueLarge = "sknLabelFieldValueLarge";
@@ -87,6 +88,7 @@ function skinsInit() {
     slFbox0dcb22a84616545 = "slFbox0dcb22a84616545";
     slFbox0e1a109213e7744 = "slFbox0e1a109213e7744";
     slFbox0f56a639b13c941 = "slFbox0f56a639b13c941";
+    slFontAwesomeIcon = "slFontAwesomeIcon";
     slForm = "slForm";
     slImage = "slImage";
     slPopup = "slPopup";

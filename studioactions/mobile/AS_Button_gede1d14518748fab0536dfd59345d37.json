@@ -1,0 +1,29 @@
+{
+    "AS_Button_gede1d14518748fab0536dfd59345d37": {
+        "id": "AS_Button_gede1d14518748fab0536dfd59345d37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmConfirmPick",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be77092a74524fb092c400300915c4e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_e8790fc7461644bab17970ac591de9de",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPickList",
+            "formKUID": "c74fb1c2811040c2875f715644edb35a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

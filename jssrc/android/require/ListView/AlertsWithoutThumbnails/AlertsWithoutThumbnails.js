@@ -18,28 +18,38 @@ define(function() {
             "data": [{
                 "lblCustomer": "This article is floated online with an intent for an example.",
                 "lblDate": "2 days ago",
+                "lblPickStatus": "customer",
                 "lblStrip": "L",
-                "lblTransferOrderNumber": "System Notification"
+                "lblTransferOrderNumber": "System Notification",
+                "lblTransferOrderNumberDisplay": "Transfer Order Number"
             }, {
                 "lblCustomer": "Here, I focus on a range of items and features that we use in life.",
                 "lblDate": "Yesterday",
+                "lblPickStatus": "customer",
                 "lblStrip": "",
-                "lblTransferOrderNumber": "System Notification"
+                "lblTransferOrderNumber": "System Notification",
+                "lblTransferOrderNumberDisplay": "Transfer Order Number"
             }, {
                 "lblCustomer": "Having used discount toner cartridges for twenty years, there are",
                 "lblDate": "Yesterday",
+                "lblPickStatus": "customer",
                 "lblStrip": "",
-                "lblTransferOrderNumber": "System Notification"
+                "lblTransferOrderNumber": "System Notification",
+                "lblTransferOrderNumberDisplay": "Transfer Order Number"
             }, {
                 "lblCustomer": "This article is floated online with an intent for an example.",
                 "lblDate": "Yesterday",
+                "lblPickStatus": "customer",
                 "lblStrip": "",
-                "lblTransferOrderNumber": "System Notification"
+                "lblTransferOrderNumber": "System Notification",
+                "lblTransferOrderNumberDisplay": "Transfer Order Number"
             }, {
                 "lblCustomer": "Here, I focus on a range of items and features that we use in life.",
                 "lblDate": "Yesterday",
+                "lblPickStatus": "customer",
                 "lblStrip": "L",
-                "lblTransferOrderNumber": "System Notification"
+                "lblTransferOrderNumber": "System Notification",
+                "lblTransferOrderNumberDisplay": "Transfer Order Number"
             }],
             "groupCells": false,
             "height": "100%",
@@ -66,8 +76,10 @@ define(function() {
                 "CopyCopyflxRow": "CopyCopyflxRow",
                 "lblCustomer": "lblCustomer",
                 "lblDate": "lblDate",
+                "lblPickStatus": "lblPickStatus",
                 "lblStrip": "lblStrip",
-                "lblTransferOrderNumber": "lblTransferOrderNumber"
+                "lblTransferOrderNumber": "lblTransferOrderNumber",
+                "lblTransferOrderNumberDisplay": "lblTransferOrderNumberDisplay"
             },
             "width": "100%",
             "zIndex": 1

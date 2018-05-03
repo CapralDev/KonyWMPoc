@@ -12,7 +12,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "3.97%"
+        "value": "8%"
     },
     "_margin_": [
         1,
@@ -26,7 +26,7 @@
         0,
         0
     ],
-    "_skin_": "s769d4918a674191971105c85fc81e2b",
+    "_skin_": "s96efbc2948c44fdb11b52267b29ff5c",
     "_text_": "Bin Information",
     "_top_": {
         "type": "string",
@@ -68,7 +68,7 @@
     "maxnumberoflines": 3,
     "maxwidth": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "name": "kony.ui.Label",
     "parent": "FlexContainer0b888f7cc6f8845",

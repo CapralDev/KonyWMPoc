@@ -41,15 +41,14 @@
     },
     "children": [
         "lblWarehouseNumber",
-        "lblWHNumberValue",
-        "flxRefresh"
+        "lblWHNumberValue"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxHeader",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "e555d80dcbb0419d988f53469ef5d73d",
     "layouttype": 2,
     "masterType": 1,

@@ -26,12 +26,13 @@ define("frmPickList", function() {
                 "id": "txtWarehouseNumber",
                 "isVisible": true,
                 "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
-                "left": "35%",
+                "left": "31.94%",
+                "onDone": controller.AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30,
+                "placeholder": "Enter a value",
                 "secureTextEntry": false,
                 "skin": "sknTextBoxInputField",
-                "text": "410",
                 "textInputMode": constants.TEXTBOX_INPUT_MODE_NUMERIC,
-                "width": "32.00%",
+                "width": "34.72%",
                 "zIndex": 1
             }, {
                 "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
@@ -48,7 +49,7 @@ define("frmPickList", function() {
                 "id": "lblWarehouseNumber",
                 "isVisible": true,
                 "left": "5%",
-                "skin": "sknFieldLabel",
+                "skin": "sknFieldLabelLite",
                 "text": "Warehouse Number",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -100,7 +101,7 @@ define("frmPickList", function() {
             var flxMain = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "520dp",
+                "height": "82%",
                 "id": "flxMain",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -116,18 +117,24 @@ define("frmPickList", function() {
                 "data": [{
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
+                    "lblPickStatus": "customer",
                     "lblStrip": "",
-                    "lblTransferOrderNumber": "Transfer Order Number"
+                    "lblTransferOrderNumber": "Transfer Order Number",
+                    "lblTransferOrderNumberDisplay": "Transfer Order Number"
                 }, {
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
+                    "lblPickStatus": "customer",
                     "lblStrip": "",
-                    "lblTransferOrderNumber": "Transfer Order Number"
+                    "lblTransferOrderNumber": "Transfer Order Number",
+                    "lblTransferOrderNumberDisplay": "Transfer Order Number"
                 }, {
                     "lblCustomer": "Customer name",
                     "lblDate": "10/01/2018",
+                    "lblPickStatus": "customer",
                     "lblStrip": "",
-                    "lblTransferOrderNumber": "Transfer Order Number"
+                    "lblTransferOrderNumber": "Transfer Order Number",
+                    "lblTransferOrderNumberDisplay": "Transfer Order Number"
                 }],
                 "groupCells": false,
                 "height": "100%",
@@ -155,8 +162,10 @@ define("frmPickList", function() {
                     "CopyCopyflxRow": "CopyCopyflxRow",
                     "lblCustomer": "lblCustomer",
                     "lblDate": "lblDate",
+                    "lblPickStatus": "lblPickStatus",
                     "lblStrip": "lblStrip",
-                    "lblTransferOrderNumber": "lblTransferOrderNumber"
+                    "lblTransferOrderNumber": "lblTransferOrderNumber",
+                    "lblTransferOrderNumberDisplay": "lblTransferOrderNumberDisplay"
                 },
                 "width": "100%",
                 "zIndex": 1
@@ -166,9 +175,10 @@ define("frmPickList", function() {
             }, {});
             flxMain.add(segList);
             var PaddedButtonRound = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "centerX": "50%",
                 "clipBounds": true,
-                "height": "45dp",
+                "height": "8%",
                 "id": "PaddedButtonRound",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5792f11ccac491799100c5fff1f18b9",
+    "_text_": "Partial Pick",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s04c0a1aa8dd4fbf93118a0c6e053375",
+    "id": "btnPartialPick",
+    "ide_onClick": "AS_Button_c28c821d90ba4b59aa5fd4c929d6be1c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b9e3211605424f5382b0ec5203d123b7",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0f8685b07bd5c4e",
+    "pf": "frmConfirmPick",
+    "wType": "Button",
+    "zindex": 1
+}

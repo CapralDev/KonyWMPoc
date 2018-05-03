@@ -12,11 +12,19 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "10/01/2018"
             },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "customer"
+            },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
             "lblTransferOrderNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transfer Order Number"
+            },
+            "lblTransferOrderNumberDisplay": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Transfer Order Number"
             }
@@ -30,11 +38,19 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "10/01/2018"
             },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "customer"
+            },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
             "lblTransferOrderNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transfer Order Number"
+            },
+            "lblTransferOrderNumberDisplay": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Transfer Order Number"
             }
@@ -48,11 +64,19 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "10/01/2018"
             },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "customer"
+            },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
             "lblTransferOrderNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transfer Order Number"
+            },
+            "lblTransferOrderNumberDisplay": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Transfer Order Number"
             }
@@ -151,8 +175,10 @@
         "CopyCopyflxRow": "CopyCopyflxRow",
         "lblCustomer": "lblCustomer",
         "lblDate": "lblDate",
+        "lblPickStatus": "lblPickStatus",
         "lblStrip": "lblStrip",
-        "lblTransferOrderNumber": "lblTransferOrderNumber"
+        "lblTransferOrderNumber": "lblTransferOrderNumber",
+        "lblTransferOrderNumberDisplay": "lblTransferOrderNumberDisplay"
     },
     "zindex": 1
 }

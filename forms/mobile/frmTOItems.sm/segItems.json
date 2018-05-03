@@ -12,6 +12,18 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Bin Information"
             },
+            "lblCaseNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblConfirmQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblDrawing": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
             "lblItemNumber": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Item Number"
@@ -24,9 +36,21 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Material"
             },
+            "lblMaterialNoDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
+            },
             "lblQty": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Qty: 0/10 EA"
+            },
+            "lblQtyDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -42,6 +66,18 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Bin Information"
             },
+            "lblCaseNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblConfirmQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblDrawing": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
             "lblItemNumber": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Item Number"
@@ -54,9 +90,21 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Material"
             },
+            "lblMaterialNoDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
+            },
             "lblQty": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Qty: 0/10 EA"
+            },
+            "lblQtyDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -72,6 +120,18 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Bin Information"
             },
+            "lblCaseNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblConfirmQty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
+            "lblDrawing": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item Number"
+            },
             "lblItemNumber": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Item Number"
@@ -84,9 +144,21 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Material"
             },
+            "lblMaterialNoDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Material"
+            },
+            "lblPickStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
+            },
             "lblQty": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Qty: 0/10 EA"
+            },
+            "lblQtyDisplay": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100 EA"
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -96,7 +168,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "142.73%"
+        "value": "100%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -133,6 +205,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segItems",
+    "ide_onRowClick": "AS_Segment_fc9b50e7046746c3b5215978a078b949",
     "info": null,
     "ipad": {
         "psp": {
@@ -185,13 +258,20 @@
     "widgetdatamap": {
         "CopyCopyflxRow0g3bd18fe97e84c": "CopyCopyflxRow0g3bd18fe97e84c",
         "FlexContainer0b888f7cc6f8845": "FlexContainer0b888f7cc6f8845",
+        "FlexContainer0c618298ae08441": "FlexContainer0c618298ae08441",
         "FlexContainer0ff0033e7e14146": "FlexContainer0ff0033e7e14146",
         "imgItemDrawing": "imgItemDrawing",
         "lblBinInfo": "lblBinInfo",
+        "lblCaseNumber": "lblCaseNumber",
+        "lblConfirmQty": "lblConfirmQty",
+        "lblDrawing": "lblDrawing",
         "lblItemNumber": "lblItemNumber",
         "lblMaterial": "lblMaterial",
         "lblMaterialNo": "lblMaterialNo",
+        "lblMaterialNoDisplay": "lblMaterialNoDisplay",
+        "lblPickStatus": "lblPickStatus",
         "lblQty": "lblQty",
+        "lblQtyDisplay": "lblQtyDisplay",
         "lblStrip": "lblStrip"
     },
     "zindex": 1

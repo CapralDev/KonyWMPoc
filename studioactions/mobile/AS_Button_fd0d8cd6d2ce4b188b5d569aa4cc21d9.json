@@ -1,0 +1,24 @@
+{
+    "AS_Button_fd0d8cd6d2ce4b188b5d569aa4cc21d9": {
+        "id": "AS_Button_fd0d8cd6d2ce4b188b5d569aa4cc21d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmConfirmPick",
+            "type": "forms",
+            "platform": "",
+            "KUID": "be77092a74524fb092c400300915c4e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e5f61769571744fab25f05d43b8258fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCompleteConfirmation();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

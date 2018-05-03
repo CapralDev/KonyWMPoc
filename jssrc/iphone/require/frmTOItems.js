@@ -8,7 +8,7 @@ define("frmTOItems", function() {
                 "clipBounds": true,
                 "height": "10%",
                 "id": "flxHeader",
-                "isVisible": true,
+                "isVisible": false,
                 "layoutType": kony.flex.FREE_FORM,
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
                 "right": "0dp",
@@ -54,47 +54,12 @@ define("frmTOItems", function() {
                 "textCopyable": false,
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
-            var flxRefresh = new kony.ui.FlexContainer({
-                "centerY": "50%",
-                "clipBounds": true,
-                "height": "100%",
-                "id": "flxRefresh",
-                "isVisible": true,
-                "layoutType": kony.flex.FREE_FORM,
-                "masterType": constants.MASTER_TYPE_USERWIDGET,
-                "right": "3%",
-                "skin": "slFbox0dcb22a84616545",
-                "width": "30%",
-                "zIndex": 1
-            }, {}, {});
-            flxRefresh.setDefaultUnit(kony.flex.DP);
-            var btnRefresh = new kony.ui.Button({
-                "centerX": "50%",
-                "centerY": "50%",
-                "focusSkin": "ButtonSkinActive",
-                "height": "70%",
-                "id": "btnRefresh",
-                "isVisible": true,
-                "left": "-5.92%",
-                "onClick": controller.AS_Button_b8cbbf2b4d214963906c0e9c06a0f614,
-                "skin": "sknButton",
-                "text": "Refresh",
-                "zIndex": 1
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-                "displayText": true,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {
-                "showProgressIndicator": true
-            });
-            flxRefresh.add(btnRefresh);
-            flxHeader.add(lblWarehouseNumber, lblWHNumberValue, flxRefresh);
+            flxHeader.add(lblWarehouseNumber, lblWHNumberValue);
             var flxHeaderDetail = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "centerX": "49.98%",
                 "clipBounds": true,
-                "height": "13.91%",
+                "height": "14.32%",
                 "id": "flxHeaderDetail",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -196,11 +161,46 @@ define("frmTOItems", function() {
                 "textCopyable": false,
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
-            flxHeaderDetail.add(CopylblWarehouseNumber0g7dc387918c449, CopylblWarehouseNumber0a64eabff27bb41, lblTONumberFieldValue, lblCreateDate, lblCustomerFieldValue);
+            var flxRefresh = new kony.ui.FlexContainer({
+                "centerY": "60%",
+                "clipBounds": true,
+                "height": "100%",
+                "id": "flxRefresh",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "masterType": constants.MASTER_TYPE_USERWIDGET,
+                "right": "3%",
+                "skin": "slFbox0dcb22a84616545",
+                "width": "30%",
+                "zIndex": 1
+            }, {}, {});
+            flxRefresh.setDefaultUnit(kony.flex.DP);
+            var btnRefresh = new kony.ui.Button({
+                "centerX": "50%",
+                "centerY": "50%",
+                "focusSkin": "ButtonSkinActive",
+                "height": "70%",
+                "id": "btnRefresh",
+                "isVisible": true,
+                "left": "-5.92%",
+                "onClick": controller.AS_Button_ie9d3a56909c47e990d81a60493870dd,
+                "skin": "sknButton",
+                "text": "Refresh",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+                "displayText": true,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "showProgressIndicator": true
+            });
+            flxRefresh.add(btnRefresh);
+            flxHeaderDetail.add(CopylblWarehouseNumber0g7dc387918c449, CopylblWarehouseNumber0a64eabff27bb41, lblTONumberFieldValue, lblCreateDate, lblCustomerFieldValue, flxRefresh);
             var flxBody = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "65%",
+                "height": "70%",
                 "id": "flxBody",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -216,6 +216,7 @@ define("frmTOItems", function() {
                 "data": [{
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
@@ -224,6 +225,7 @@ define("frmTOItems", function() {
                 }, {
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
@@ -232,6 +234,7 @@ define("frmTOItems", function() {
                 }, {
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
@@ -239,7 +242,7 @@ define("frmTOItems", function() {
                     "lblStrip": ""
                 }],
                 "groupCells": false,
-                "height": "142.73%",
+                "height": "100%",
                 "id": "segItems",
                 "isVisible": true,
                 "left": "0dp",
@@ -265,6 +268,7 @@ define("frmTOItems", function() {
                     "FlexContainer0ff0033e7e14146": "FlexContainer0ff0033e7e14146",
                     "imgItemDrawing": "imgItemDrawing",
                     "lblBinInfo": "lblBinInfo",
+                    "lblDrawing": "lblDrawing",
                     "lblItemNumber": "lblItemNumber",
                     "lblMaterial": "lblMaterial",
                     "lblMaterialNo": "lblMaterialNo",

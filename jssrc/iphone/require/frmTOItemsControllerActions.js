@@ -3,7 +3,7 @@ define({
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
     /** onClick defined for btnRefresh **/
-    AS_Button_b8cbbf2b4d214963906c0e9c06a0f614: function AS_Button_b8cbbf2b4d214963906c0e9c06a0f614(eventobject) {
+    AS_Button_ie9d3a56909c47e990d81a60493870dd: function AS_Button_ie9d3a56909c47e990d81a60493870dd(eventobject) {
         var self = this;
         this.onIntegrationCall();
     },

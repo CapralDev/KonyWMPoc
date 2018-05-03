@@ -20,10 +20,10 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "9%"
+        "value": "5%"
     },
     "_skin_": "s72f5d68abba4a29b414595cf0a6ace2",
-    "_text_": "10/01/2018",
+    "_text_": "date",
     "_top_": {
         "type": "string",
         "value": "10%"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 6,
     "id": "lblDate",
     "info": null,
     "ipad": {
