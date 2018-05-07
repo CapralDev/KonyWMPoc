@@ -1,4 +1,28 @@
 //Type your code here
+var glbIntegrationServiceName = null;
+var glbObjectServiceName = null;
+var glbIdentityServiceName = null;
+/*
+  buildmode 
+  0 - Development
+  1 - UAT
+  2 - Prod
+*/
+var buildmode = 1;
+if (buildmode === 0) //Dev
+{
+    // Dev setup
+    glbIntegrationServiceName = "WMServiceCOD";
+    glbObjectServiceName = "WMObjectServiceCOD";
+    glbIdentityServiceName = "SAPCOD01";
+} else if (buildmode === 1) //UAT
+{
+    // Test setup
+    glbIntegrationServiceName = "WMServiceCOT";
+    glbObjectServiceName = "WMObjectServiceCOT";
+    glbIdentityServiceName = "SAPCOT01";
+}
+
 function navigateToForm(formName) {
     printLog("Navigate to form:" + formName);
     var ntf = new kony.mvc.Navigation(formName);
@@ -28,4 +52,20 @@ function dismissLoadingScreen() {
 
 function printLog(message) {
     kony.print("XXXXX:" + message);
+}
+
+function setImageCache(imageName, imageBinary) {
+    kony.store.setItem("IMAGE_CACHE_" + imageName, imageBinary);
+}
+
+function getImageCache(imageName) {
+    return kony.store.getItem("IMAGE_CACHE_" + imageName);
+}
+
+function setWarehouseNumber(warehouseNumber) {
+    kony.store.setItem("DEFAULT_WAREHOUSE", warehouseNumber);
+}
+
+function getWarehouseNumber() {
+    return kony.store.getItem("DEFAULT_WAREHOUSE");
 }

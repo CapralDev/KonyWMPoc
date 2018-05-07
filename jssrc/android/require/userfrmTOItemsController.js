@@ -79,6 +79,22 @@ define({
                                 "skin": "sknLblStatusYellow"
                             };
                         }
+                        /* Commented out due to empty strings returned
+                        //Retrieve image base64 string from the field values below
+                        //and stich it up
+                        var base64Value = TO_ITEM[i].ZZLONG_TEXT + 
+                                          TO_ITEM[i].ZZLONG_TEXT2 + 
+                                          TO_ITEM[i].ZZLONG_TEXT3 + 
+                                          TO_ITEM[i].ZZLONG_TEXT4 + 
+                                          TO_ITEM[i].ZZLONG_TEXT5;
+                  
+                        //Trim the string
+                        base64Value.trim();
+                  
+                        if(base64Value.length>0)
+                        {
+                          record.imgItemDrawing = {"base64":base64Value};
+                        } */
                         data.push(record);
                     }
                 }

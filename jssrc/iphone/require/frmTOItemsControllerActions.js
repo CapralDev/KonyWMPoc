@@ -7,6 +7,11 @@ define({
         var self = this;
         this.onIntegrationCall();
     },
+    /** onRowClick defined for segItems **/
+    AS_Segment_fc9b50e7046746c3b5215978a078b949: function AS_Segment_fc9b50e7046746c3b5215978a078b949(eventobject, sectionNumber, rowNumber) {
+        var self = this;
+        this.onRowClick();
+    },
     /** onClick defined for btnBack **/
     AS_Button_bf1e6efc077b442e8fcc2e3f92faa37a: function AS_Button_bf1e6efc077b442e8fcc2e3f92faa37a(eventobject) {
         var self = this;

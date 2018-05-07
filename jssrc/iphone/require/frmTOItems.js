@@ -59,7 +59,7 @@ define("frmTOItems", function() {
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "centerX": "49.98%",
                 "clipBounds": true,
-                "height": "14.32%",
+                "height": "12%",
                 "id": "flxHeaderDetail",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -70,46 +70,10 @@ define("frmTOItems", function() {
                 "zIndex": 1
             }, {}, {});
             flxHeaderDetail.setDefaultUnit(kony.flex.DP);
-            var CopylblWarehouseNumber0g7dc387918c449 = new kony.ui.Label({
-                "centerY": "20%",
-                "id": "CopylblWarehouseNumber0g7dc387918c449",
-                "isVisible": true,
-                "left": "5.33%",
-                "skin": "sknFieldLabel",
-                "text": "TO#",
-                "textStyle": {},
-                "width": "13.33%",
-                "zIndex": 1
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {
-                "textCopyable": false,
-                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
-            });
-            var CopylblWarehouseNumber0a64eabff27bb41 = new kony.ui.Label({
-                "centerY": "20%",
-                "id": "CopylblWarehouseNumber0a64eabff27bb41",
-                "isVisible": true,
-                "left": "46.26%",
-                "skin": "sknFieldLabel",
-                "text": "Created",
-                "textStyle": {},
-                "width": "18%",
-                "zIndex": 1
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {
-                "textCopyable": false,
-                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
-            });
             var lblTONumberFieldValue = new kony.ui.Label({
                 "centerY": "20%",
                 "id": "lblTONumberFieldValue",
-                "isVisible": true,
+                "isVisible": false,
                 "left": "19.92%",
                 "skin": "sknFieldLabel",
                 "text": "92",
@@ -124,13 +88,29 @@ define("frmTOItems", function() {
                 "textCopyable": false,
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
+            var lblTONumberDisplay = new kony.ui.Label({
+                "centerY": "20.00%",
+                "id": "lblTONumberDisplay",
+                "isVisible": true,
+                "left": "5%",
+                "skin": "sknFieldLabel",
+                "textStyle": {},
+                "width": "31.94%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "textCopyable": false,
+                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+            });
             var lblCreateDate = new kony.ui.Label({
-                "centerY": "20%",
+                "centerY": "20.00%",
                 "id": "lblCreateDate",
                 "isVisible": true,
-                "left": "66.03%",
-                "skin": "sknFieldLabel",
-                "text": "12/04/2018",
+                "left": "72.71%",
+                "skin": "sknFieldLabelLiteSmall",
                 "textStyle": {},
                 "width": kony.flex.USE_PREFFERED_SIZE,
                 "zIndex": 1
@@ -143,15 +123,34 @@ define("frmTOItems", function() {
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
             var lblCustomerFieldValue = new kony.ui.Label({
-                "centerY": "55%",
+                "centerY": "49.55%",
+                "height": "25%",
                 "id": "lblCustomerFieldValue",
                 "isVisible": true,
-                "left": "5.02%",
+                "left": "5%",
+                "maxHeight": "25%",
                 "maxWidth": "80%",
-                "skin": "sknFieldLabel",
-                "text": "Metricon Limited",
+                "skin": "sknFieldLabelLiteSmall",
                 "textStyle": {},
-                "width": "90%",
+                "width": "60%",
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "textCopyable": false,
+                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+            });
+            var lblOverallStatus = new kony.ui.Label({
+                "centerY": "76.58%",
+                "id": "lblOverallStatus",
+                "isVisible": true,
+                "left": "5%",
+                "maxWidth": "80%",
+                "skin": "sknFieldLabelLiteSmall",
+                "textStyle": {},
+                "width": "60%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -179,13 +178,13 @@ define("frmTOItems", function() {
                 "centerX": "50%",
                 "centerY": "50%",
                 "focusSkin": "ButtonSkinActive",
-                "height": "70%",
+                "height": "85%",
                 "id": "btnRefresh",
                 "isVisible": true,
-                "left": "-5.92%",
                 "onClick": controller.AS_Button_ie9d3a56909c47e990d81a60493870dd,
                 "skin": "sknButton",
                 "text": "Refresh",
+                "width": "100%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_CENTER,
@@ -196,11 +195,11 @@ define("frmTOItems", function() {
                 "showProgressIndicator": true
             });
             flxRefresh.add(btnRefresh);
-            flxHeaderDetail.add(CopylblWarehouseNumber0g7dc387918c449, CopylblWarehouseNumber0a64eabff27bb41, lblTONumberFieldValue, lblCreateDate, lblCustomerFieldValue, flxRefresh);
+            flxHeaderDetail.add(lblTONumberFieldValue, lblTONumberDisplay, lblCreateDate, lblCustomerFieldValue, lblOverallStatus, flxRefresh);
             var flxBody = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "70%",
+                "height": "80%",
                 "id": "flxBody",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -216,29 +215,44 @@ define("frmTOItems", function() {
                 "data": [{
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblCaseNumber": "Item Number",
+                    "lblConfirmQty": "Item Number",
                     "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
+                    "lblMaterialNoDisplay": "Material",
+                    "lblPickStatus": "100 EA",
                     "lblQty": "Qty: 0/10 EA",
+                    "lblQtyDisplay": "100 EA",
                     "lblStrip": ""
                 }, {
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblCaseNumber": "Item Number",
+                    "lblConfirmQty": "Item Number",
                     "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
+                    "lblMaterialNoDisplay": "Material",
+                    "lblPickStatus": "100 EA",
                     "lblQty": "Qty: 0/10 EA",
+                    "lblQtyDisplay": "100 EA",
                     "lblStrip": ""
                 }, {
                     "imgItemDrawing": "imagedrag.png",
                     "lblBinInfo": "Bin Information",
+                    "lblCaseNumber": "Item Number",
+                    "lblConfirmQty": "Item Number",
                     "lblDrawing": "Item Number",
                     "lblItemNumber": "Item Number",
                     "lblMaterial": "Material",
                     "lblMaterialNo": "Material",
+                    "lblMaterialNoDisplay": "Material",
+                    "lblPickStatus": "100 EA",
                     "lblQty": "Qty: 0/10 EA",
+                    "lblQtyDisplay": "100 EA",
                     "lblStrip": ""
                 }],
                 "groupCells": false,
@@ -247,6 +261,7 @@ define("frmTOItems", function() {
                 "isVisible": true,
                 "left": "0dp",
                 "needPageIndicator": true,
+                "onRowClick": controller.AS_Segment_fc9b50e7046746c3b5215978a078b949,
                 "pageOffDotImage": "pageoffdot.png",
                 "pageOnDotImage": "pageondot.png",
                 "retainSelection": false,
@@ -265,14 +280,20 @@ define("frmTOItems", function() {
                 "widgetDataMap": {
                     "CopyCopyflxRow0g3bd18fe97e84c": "CopyCopyflxRow0g3bd18fe97e84c",
                     "FlexContainer0b888f7cc6f8845": "FlexContainer0b888f7cc6f8845",
+                    "FlexContainer0c618298ae08441": "FlexContainer0c618298ae08441",
                     "FlexContainer0ff0033e7e14146": "FlexContainer0ff0033e7e14146",
                     "imgItemDrawing": "imgItemDrawing",
                     "lblBinInfo": "lblBinInfo",
+                    "lblCaseNumber": "lblCaseNumber",
+                    "lblConfirmQty": "lblConfirmQty",
                     "lblDrawing": "lblDrawing",
                     "lblItemNumber": "lblItemNumber",
                     "lblMaterial": "lblMaterial",
                     "lblMaterialNo": "lblMaterialNo",
+                    "lblMaterialNoDisplay": "lblMaterialNoDisplay",
+                    "lblPickStatus": "lblPickStatus",
                     "lblQty": "lblQty",
+                    "lblQtyDisplay": "lblQtyDisplay",
                     "lblStrip": "lblStrip"
                 },
                 "width": "100%",
@@ -290,10 +311,11 @@ define("frmTOItems", function() {
             });
             flxBody.add(segItems);
             var PaddedButtonRound = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "bottom": 0,
                 "centerX": "50%",
                 "clipBounds": true,
-                "height": "10%",
+                "height": "8%",
                 "id": "PaddedButtonRound",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,

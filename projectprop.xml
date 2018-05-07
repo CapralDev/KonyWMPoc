@@ -598,7 +598,7 @@
     <attributes name="wp10codeGeneration" value="false"/>
     <attributes name="bluetooth" value="false"/>
     <attributes name="apmappload" value="false"/>
-    <attributes name="build" value="debug"/>
+    <attributes name="build" value="release"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
     <attributes name="defaultlocalekey" value="en_US"/>

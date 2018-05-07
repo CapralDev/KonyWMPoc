@@ -2,6 +2,11 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    /** onDone defined for txtWarehouseNumber **/
+    AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30: function AS_TextField_j3c9ce31e11c4271b74d0520d6d88f30(eventobject, changedtext) {
+        var self = this;
+        this.onIntegrationCall();
+    },
     /** onClick defined for btnRefresh **/
     AS_Button_ca3c159648cd4957b819ffdf49668a3e: function AS_Button_ca3c159648cd4957b819ffdf49668a3e(eventobject) {
         var self = this;

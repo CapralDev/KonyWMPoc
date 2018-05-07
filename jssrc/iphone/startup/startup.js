@@ -12,50 +12,44 @@ var appConfig = {
     middlewareContext: "KonyWMPoc",
     isturlbase: "https://capral-uat.konycloud.com/services",
     isMFApp: true,
-    appKey: "9bf924e5ebff1bd89370ac4433e085ee",
-    appSecret: "74bf6c12a24ebadeec0aeff70455b5b6",
+    appKey: "6e4a7088ecb5c390fc5379f8ce79cf35",
+    appSecret: "9199041614e3d96a3f8ecb142c91df5f",
     serviceUrl: "https://100008224.auth.konycloud.com/appconfig",
     svcDoc: {
         "selflink": "https://100008224.auth.konycloud.com/appconfig",
         "identity_meta": {},
         "integsvc": {
-            "WMPicking": "https://capral-uat.konycloud.com/services/WMPicking",
-            "WMConfirmPick": "https://capral-uat.konycloud.com/services/WMConfirmPick"
+            "WMServiceCOT": "https://capral-uat.konycloud.com/services/WMServiceCOT"
         },
-        "service_doc_etag": "000001631EBDBFF0",
-        "appId": "83894653-e0f1-471c-97c9-8f2d1849f96d",
+        "service_doc_etag": "00000163297E7F10",
+        "appId": "5d907e93-04bb-4a7d-a530-3272d1cebf31",
         "identity_features": {
             "reporting_params_header_allowed": true
         },
-        "name": "WMPicking",
+        "name": "WMPickingCOT",
         "reportingsvc": {
             "session": "https://capral-uat.konycloud.com/services/IST",
             "custom": "https://capral-uat.konycloud.com/services/CMS"
         },
-        "baseId": "10d0bd1e-bca5-4f77-81e2-af5281a24e3b",
+        "baseId": "0fe97e99-188a-4c50-b14f-da237cc00e20",
         "login": [{
-            "alias": "SAPCOD01",
+            "alias": "SAPCOT01",
             "type": "basic",
-            "prov": "SAPCOD01",
+            "prov": "SAPCOT01",
             "url": "https://100008224.auth.konycloud.com"
         }],
         "services_meta": {
-            "WMPicking": {
-                "type": "integsvc",
-                "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/WMPicking"
-            },
-            "WMConfirmPick": {
-                "type": "integsvc",
-                "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/WMConfirmPick"
-            },
-            "WMObjectService": {
+            "WMObjectServiceCOT": {
                 "offline": false,
-                "metadata_url": "https://capral-uat.konycloud.com/services/metadata/v1/WMObjectService",
+                "metadata_url": "https://capral-uat.konycloud.com/services/metadata/v1/WMObjectServiceCOT",
                 "type": "objectsvc",
                 "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/data/v1/WMObjectService"
+                "url": "https://capral-uat.konycloud.com/services/data/v1/WMObjectServiceCOT"
+            },
+            "WMServiceCOT": {
+                "type": "integsvc",
+                "version": "1.0",
+                "url": "https://capral-uat.konycloud.com/services/WMServiceCOT"
             }
         }
     },

@@ -300,16 +300,19 @@ define(function() {
                 var authorizationClient = null;
                 kony.application.showLoadingScreen(null, "Loading...", constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false, true, {});
                 var sdkClient = new kony.sdk.getCurrentInstance();
+                providername = glbIdentityServiceName;
+                printLog("Inside invokeIdentityService using provider:" + providername);
                 if (Object.keys(sdkClient).length !== 0) {
                     authorizationClient = sdkClient.getIdentityService(providername);
                 }
+                printLog("Inside invokeIdentityService authorizationClient:" + authorizationClient);
                 if (authorizationClient === null || authorizationClient === undefined) {
                     kony.application.dismissLoadingScreen();
                     konymp.logger.info("Authorization object null - Connect to MF");
                     alert(constants.MF_ALERT_MESSAGE);
                     return;
                 }
-                if (providername === constants.DEFAULT_PROVIDER_NAME) {
+                if (providername !== "") {
                     kony.store.setItem("inputType", "password");
                     argument.userid = this.getUsername();
                     argument.password = this.getPassword();
@@ -775,6 +778,7 @@ define(function() {
          */
         invokeButtonClick: function() {
             konymp.logger.trace("---------------Entering invokeButtonClick function---------------", konymp.logger.FUNCTION_ENTRY);
+            this.providerName = glbIdentityServiceName;
             try {
                 kony.store.setItem("inputType", "password");
                 if (this.submitOnClick !== null && this.submitOnClick !== undefined) {
