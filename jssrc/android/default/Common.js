@@ -1,4 +1,28 @@
 //Type your code here
+var glbIntegrationServiceName = null;
+var glbObjectServiceName = null;
+var glbIdentityServiceName = null;
+/*
+  buildmode 
+  0 - Development
+  1 - UAT
+  2 - Prod
+*/
+var buildmode = 0;
+if (buildmode === 0) //Dev
+{
+    // Dev setup
+    glbIntegrationServiceName = "WMServiceCOD";
+    glbObjectServiceName = "WMObjectServiceCOD";
+    glbIdentityServiceName = "SAPCOD01";
+} else if (buildmode === 1) //UAT
+{
+    // Test setup
+    glbIntegrationServiceName = "WMServiceCOT";
+    glbObjectServiceName = "WMObjectServiceCOT";
+    glbIdentityServiceName = "SAPCOT01";
+}
+
 function navigateToForm(formName) {
     printLog("Navigate to form:" + formName);
     var ntf = new kony.mvc.Navigation(formName);

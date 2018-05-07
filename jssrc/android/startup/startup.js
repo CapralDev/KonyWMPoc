@@ -1,4 +1,7 @@
 //startup.js file
+kony.print = function() {
+    return;
+};
 var globalhttpheaders = {};
 var appConfig = {
     appId: "KonyWMPoc",
@@ -8,26 +11,25 @@ var appConfig = {
     serverIp: "192.168.250.120",
     serverPort: "80",
     secureServerPort: "443",
-    isDebug: true,
+    isDebug: false,
     middlewareContext: "KonyWMPoc",
     isturlbase: "https://capral-uat.konycloud.com/services",
     isMFApp: true,
-    appKey: "9bf924e5ebff1bd89370ac4433e085ee",
-    appSecret: "74bf6c12a24ebadeec0aeff70455b5b6",
+    appKey: "bc9a3fe5139ef7b76be26879e89e1083",
+    appSecret: "44b7e44d9ebd49b8c5af0420db360d2",
     serviceUrl: "https://100008224.auth.konycloud.com/appconfig",
     svcDoc: {
         "selflink": "https://100008224.auth.konycloud.com/appconfig",
         "identity_meta": {},
         "integsvc": {
-            "WMPicking": "https://capral-uat.konycloud.com/services/WMPicking",
-            "WMConfirmPick": "https://capral-uat.konycloud.com/services/WMConfirmPick"
+            "WMServiceCOD": "https://capral-uat.konycloud.com/services/WMServiceCOD"
         },
-        "service_doc_etag": "000001631FAAE2F8",
-        "appId": "83894653-e0f1-471c-97c9-8f2d1849f96d",
+        "service_doc_etag": "00000163296B2208",
+        "appId": "1059f670-ee84-4fcb-9e98-f5717bc9b3da",
         "identity_features": {
             "reporting_params_header_allowed": true
         },
-        "name": "WMPicking",
+        "name": "WMPickingCOD",
         "reportingsvc": {
             "session": "https://capral-uat.konycloud.com/services/IST",
             "custom": "https://capral-uat.konycloud.com/services/CMS"
@@ -40,22 +42,17 @@ var appConfig = {
             "url": "https://100008224.auth.konycloud.com"
         }],
         "services_meta": {
-            "WMPicking": {
-                "type": "integsvc",
-                "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/WMPicking"
-            },
-            "WMConfirmPick": {
-                "type": "integsvc",
-                "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/WMConfirmPick"
-            },
-            "WMObjectService": {
+            "WMObjectServiceCOD": {
                 "offline": false,
-                "metadata_url": "https://capral-uat.konycloud.com/services/metadata/v1/WMObjectService",
+                "metadata_url": "https://capral-uat.konycloud.com/services/metadata/v1/WMObjectServiceCOD",
                 "type": "objectsvc",
                 "version": "1.0",
-                "url": "https://capral-uat.konycloud.com/services/data/v1/WMObjectService"
+                "url": "https://capral-uat.konycloud.com/services/data/v1/WMObjectServiceCOD"
+            },
+            "WMServiceCOD": {
+                "type": "integsvc",
+                "version": "1.0",
+                "url": "https://capral-uat.konycloud.com/services/WMServiceCOD"
             }
         }
     },
@@ -135,6 +132,3 @@ function onFailure(errorcode, errormsg, info) {
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
 kony.i18n.setDefaultLocaleAsync("en_US", onSuccess, onFailure, null);
-// If you wish to debug Application Initialization events, now is the time to
-// place breakpoints.
-debugger;

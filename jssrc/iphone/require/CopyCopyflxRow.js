@@ -13,7 +13,7 @@ define("CopyCopyflxRow", function() {
         var lblTransferOrderNumber = new kony.ui.Label({
             "height": "28%",
             "id": "lblTransferOrderNumber",
-            "isVisible": true,
+            "isVisible": false,
             "left": "4%",
             "maxWidth": "50%",
             "skin": "sknLblHeading",
@@ -30,19 +30,39 @@ define("CopyCopyflxRow", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
+        var lblTransferOrderNumberDisplay = new kony.ui.Label({
+            "height": "28%",
+            "id": "lblTransferOrderNumberDisplay",
+            "isVisible": true,
+            "left": "5%",
+            "maxWidth": "50%",
+            "skin": "sknLblHeading",
+            "text": "123",
+            "textStyle": {},
+            "top": "8.05%",
+            "width": "45%",
+            "zIndex": 1
+        }, {
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, {
+            "textCopyable": false,
+            "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+        });
         var lblCustomer = new kony.ui.Label({
             "bottom": "10%",
             "id": "lblCustomer",
             "isVisible": true,
-            "left": "4%",
+            "left": "5%",
             "maxNumberOfLines": 3,
             "maxWidth": "70%",
-            "skin": "CopyCopyslLabel",
-            "text": "Customer name",
+            "skin": "sknLabelTOHeaderLite",
+            "text": "customer",
             "textStyle": {},
             "textTruncatePosition": constants.TEXT_TRUNCATE_NONE,
             "top": "42%",
-            "width": "70%",
+            "width": "62.04%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
@@ -52,18 +72,39 @@ define("CopyCopyflxRow", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
+        var lblPickStatus = new kony.ui.Label({
+            "id": "lblPickStatus",
+            "isVisible": true,
+            "maxNumberOfLines": 3,
+            "maxWidth": "70%",
+            "right": "5%",
+            "skin": "sknLabelTOHeaderSmall",
+            "text": "Qty: Conf:",
+            "textStyle": {},
+            "textTruncatePosition": constants.TEXT_TRUNCATE_NONE,
+            "top": "40%",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, {
+            "contentAlignment": constants.CONTENT_ALIGN_TOP_RIGHT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, {
+            "textCopyable": false,
+            "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+        });
         var lblDate = new kony.ui.Label({
             "id": "lblDate",
             "isVisible": true,
-            "right": "9%",
-            "skin": "CopyCopyslLabel1",
-            "text": "10/01/2018",
+            "right": "5%",
+            "skin": "sknLabelTOHeaderSmall",
+            "text": "date",
             "textStyle": {},
             "top": "10%",
             "width": kony.flex.USE_PREFFERED_SIZE,
             "zIndex": 1
         }, {
-            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_RIGHT,
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, {
@@ -76,10 +117,10 @@ define("CopyCopyflxRow", function() {
             "isVisible": true,
             "left": "0dp",
             "maxWidth": "1%",
-            "skin": "CopykonympALsknLblStrip",
+            "skin": "sknLblStatusYellow",
             "textStyle": {},
             "top": "0dp",
-            "width": kony.flex.USE_PREFFERED_SIZE,
+            "width": "3%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -89,7 +130,7 @@ define("CopyCopyflxRow", function() {
             "textCopyable": false,
             "wrapping": constants.WIDGET_TEXT_WORD_WRAP
         });
-        CopyCopyflxRow.add(lblTransferOrderNumber, lblCustomer, lblDate, lblStrip);
+        CopyCopyflxRow.add(lblTransferOrderNumber, lblTransferOrderNumberDisplay, lblCustomer, lblPickStatus, lblDate, lblStrip);
         return CopyCopyflxRow;
     }
 })

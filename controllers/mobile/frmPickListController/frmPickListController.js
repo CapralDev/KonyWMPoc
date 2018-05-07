@@ -73,11 +73,56 @@ define({
           
           if(TO_HEADER!== undefined)
           {
+             var totalPickQty = 0;
+              var totalReqQty  = 0;
+            var record = {};
+            printLog("TO_HEADER length:"+TO_HEADER.length);
+            //single item, not array
+            if(TO_HEADER.length===undefined)
+              {
+                 printLog("TO_HEADER structure:"+JSON.stringify(TO_HEADER));
+              record = {};
+              record.lblTransferOrderNumber = TO_HEADER.TANUM;
+              record.lblTransferOrderNumberDisplay = TO_HEADER.TANUM.toString();
+              record.lblCustomer = TO_HEADER.NAME1;
+              record.lblDate = displaySAPDate(TO_HEADER.BDATU);
+                 //Check items
+              for(j=0;j<TO_ITEM.length; j++)
+              {
+                if(TO_ITEM[j].TANUM===record.lblTransferOrderNumber)  
+                {
+                    totalPickQty+=TO_ITEM[j].CONF_QTY;
+                    totalReqQty +=TO_ITEM[j].VSOLA;
+                }
+              }
+              
+              record.lblPickStatus = "Req: "+totalReqQty +" Conf: "+totalPickQty;
+              
+              if(totalPickQty===0)
+              {
+              	record.lblStrip = {"skin":"sknLblStatusRed"};    
+              }
+              else if(totalPickQty!==totalReqQty)
+              {
+                record.lblStrip = {"skin":"sknLblStatusYellow"};  
+              }
+              else
+              {
+                record.lblStrip = {"skin":"sknLblStatusGreen"};  
+              }
+              
+              data.push(record);
+                
+                
+              }
+            else
+              {
+                
             for(i=0;i<TO_HEADER.length; i++)
             {
-              var record = {};
-              var totalPickQty = 0;
-              var totalReqQty  = 0;
+              record = {};
+              totalPickQty = 0;
+              totalReqQty  = 0;
               
               
               record.lblTransferOrderNumber = TO_HEADER[i].TANUM;
@@ -112,7 +157,7 @@ define({
               
               data.push(record);
             }
-          
+            }
             this.view.segList.addAll(data);
           }
         }

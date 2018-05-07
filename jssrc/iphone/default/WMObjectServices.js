@@ -1,6 +1,6 @@
 //Type your code here
 function getBinaryContent(binaryname, successcallback, errcallback) {
-    var objSvc = kony.sdk.getCurrentInstance().getObjectService("WMObjectService", {
+    var objSvc = kony.sdk.getCurrentInstance().getObjectService(glbObjectServiceName, {
         "access": "online"
     });
     var dataObject = new kony.sdk.dto.DataObject("media");

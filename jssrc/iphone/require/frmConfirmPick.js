@@ -17,33 +17,15 @@ define("frmConfirmPick", function() {
                 "zIndex": 1
             }, {}, {});
             flxHeaderDetail.setDefaultUnit(kony.flex.DP);
-            var lblTONumberLabel = new kony.ui.Label({
-                "centerY": "20%",
-                "id": "lblTONumberLabel",
-                "isVisible": true,
-                "left": "5.33%",
-                "skin": "sknFieldLabel",
-                "text": "TO#",
-                "textStyle": {},
-                "width": "13.33%",
-                "zIndex": 1
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {
-                "textCopyable": false,
-                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
-            });
             var lblTONumber = new kony.ui.Label({
-                "centerY": "20.05%",
+                "centerY": "23.74%",
                 "id": "lblTONumber",
-                "isVisible": true,
-                "left": "27.59%",
+                "isVisible": false,
+                "left": "5.36%",
                 "skin": "sknFieldLabel",
                 "text": "92",
                 "textStyle": {},
-                "width": "18.67%",
+                "width": "34.03%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -53,15 +35,15 @@ define("frmConfirmPick", function() {
                 "textCopyable": false,
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
-            var lblItemNoLabel = new kony.ui.Label({
-                "centerY": "38.46%",
-                "id": "lblItemNoLabel",
+            var lblTOItemNumberDisplay = new kony.ui.Label({
+                "centerY": "25.28%",
+                "id": "lblTOItemNumberDisplay",
                 "isVisible": true,
-                "left": "5.32%",
-                "skin": "sknFieldLabel",
-                "text": "Item No",
+                "left": "5.26%",
+                "skin": "sknLabelFieldValueNormal",
+                "text": "92",
                 "textStyle": {},
-                "width": "20.00%",
+                "width": "50.69%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -74,7 +56,7 @@ define("frmConfirmPick", function() {
             var lblItemNumber = new kony.ui.Label({
                 "centerY": "38.46%",
                 "id": "lblItemNumber",
-                "isVisible": true,
+                "isVisible": false,
                 "left": "27.59%",
                 "skin": "sknFieldLabel",
                 "text": "1",
@@ -128,13 +110,13 @@ define("frmConfirmPick", function() {
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
             var imgMaterial = new kony.ui.Image2({
-                "height": "40%",
+                "height": "43.41%",
                 "id": "imgMaterial",
                 "isVisible": true,
-                "right": "5%",
+                "right": "5.03%",
                 "skin": "slImage",
                 "src": "imagedrag.png",
-                "top": "12%",
+                "top": "3.53%",
                 "width": "30%",
                 "zIndex": 1
             }, {
@@ -142,7 +124,7 @@ define("frmConfirmPick", function() {
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
             }, {});
-            flxHeaderDetail.add(lblTONumberLabel, lblTONumber, lblItemNoLabel, lblItemNumber, lblBin, lblMaterialDescription, imgMaterial);
+            flxHeaderDetail.add(lblTONumber, lblTOItemNumberDisplay, lblItemNumber, lblBin, lblMaterialDescription, imgMaterial);
             var flxMaterial = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -248,7 +230,7 @@ define("frmConfirmPick", function() {
             var flxReqQty = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
-                "height": "10.82%",
+                "height": "12%",
                 "id": "flxReqQty",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -264,7 +246,7 @@ define("frmConfirmPick", function() {
                 "id": "CopyLabel0a4436e39df604d",
                 "isVisible": true,
                 "left": "4.97%",
-                "skin": "sknFieldLabel",
+                "skin": "sknFieldLabelLite",
                 "text": "Requested",
                 "textStyle": {},
                 "width": "23.61%",
@@ -282,7 +264,7 @@ define("frmConfirmPick", function() {
                 "id": "CopyLabel0b3d13c8c7db548",
                 "isVisible": true,
                 "left": "50.03%",
-                "skin": "sknFieldLabel",
+                "skin": "sknFieldLabelLite",
                 "text": "Outstanding",
                 "textStyle": {},
                 "width": kony.flex.USE_PREFFERED_SIZE,
@@ -331,7 +313,25 @@ define("frmConfirmPick", function() {
                 "textCopyable": false,
                 "wrapping": constants.WIDGET_TEXT_WORD_WRAP
             });
-            flxReqQty.add(CopyLabel0a4436e39df604d, CopyLabel0b3d13c8c7db548, lblQtyRequested, lblOutstanding);
+            var lblUOM = new kony.ui.Label({
+                "centerY": "62.77%",
+                "id": "lblUOM",
+                "isVisible": true,
+                "left": "81.94%",
+                "skin": "sknFieldLabel",
+                "text": "EA",
+                "textStyle": {},
+                "width": kony.flex.USE_PREFFERED_SIZE,
+                "zIndex": 1
+            }, {
+                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {
+                "textCopyable": false,
+                "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+            });
+            flxReqQty.add(CopyLabel0a4436e39df604d, CopyLabel0b3d13c8c7db548, lblQtyRequested, lblOutstanding, lblUOM);
             var flxConfirmQty = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -375,7 +375,6 @@ define("frmConfirmPick", function() {
                 "left": "50.00%",
                 "secureTextEntry": false,
                 "skin": "sknTextBoxInputField",
-                "text": "1",
                 "textInputMode": constants.TEXTBOX_INPUT_MODE_NUMERIC,
                 "width": "32.00%",
                 "zIndex": 1
@@ -436,7 +435,6 @@ define("frmConfirmPick", function() {
                 "left": "50.00%",
                 "secureTextEntry": false,
                 "skin": "sknTextBoxInputField",
-                "text": "123",
                 "textInputMode": constants.TEXTBOX_INPUT_MODE_NUMERIC,
                 "width": "32.00%",
                 "zIndex": 1
@@ -497,8 +495,7 @@ define("frmConfirmPick", function() {
                 "left": "50.00%",
                 "secureTextEntry": false,
                 "skin": "sknTextBoxInputField",
-                "text": "12345",
-                "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+                "textInputMode": constants.TEXTBOX_INPUT_MODE_NUMERIC,
                 "width": "32.00%",
                 "zIndex": 1
             }, {
@@ -535,10 +532,11 @@ define("frmConfirmPick", function() {
             });
             flxBundle.add(CopyLabel0f7d171438ffa4b, txtBundleID, imgBarcode);
             var flxConfirmationButtons = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "bottom": "0%",
                 "centerX": "50%",
                 "clipBounds": true,
-                "height": "10%",
+                "height": "15%",
                 "id": "flxConfirmationButtons",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -569,7 +567,8 @@ define("frmConfirmPick", function() {
                 "height": "85%",
                 "id": "btnCompletePick",
                 "isVisible": true,
-                "skin": "ButtonSkinNormal",
+                "onClick": controller.AS_Button_fd0d8cd6d2ce4b188b5d569aa4cc21d9,
+                "skin": "btnConfirmAll",
                 "text": "Complete Pick",
                 "width": "90%",
                 "zIndex": 1
@@ -603,7 +602,8 @@ define("frmConfirmPick", function() {
                 "height": "85%",
                 "id": "btnPartialPick",
                 "isVisible": true,
-                "skin": "ButtonSkinNormal",
+                "onClick": controller.AS_Button_c28c821d90ba4b59aa5fd4c929d6be1c,
+                "skin": "sknBtnPartialPick",
                 "text": "Partial Pick",
                 "width": "90%",
                 "zIndex": 1
@@ -623,7 +623,7 @@ define("frmConfirmPick", function() {
                 "clipBounds": true,
                 "height": "10%",
                 "id": "CopyPaddedButtonRound0a93f755ebd5647",
-                "isVisible": true,
+                "isVisible": false,
                 "layoutType": kony.flex.FREE_FORM,
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
                 "skin": "slFbox0b5344a6905ab49",
@@ -668,10 +668,11 @@ define("frmConfirmPick", function() {
             CopyFlexContainer0f86a710eb72f4f.add(btnGetBinary);
             CopyPaddedButtonRound0a93f755ebd5647.add(CopyFlexContainer0f86a710eb72f4f);
             var CopyPaddedButtonRound0a9d0c80c48a54d = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "bottom": "0%",
                 "centerX": "50%",
                 "clipBounds": true,
-                "height": "10%",
+                "height": "8%",
                 "id": "CopyPaddedButtonRound0a9d0c80c48a54d",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
@@ -725,6 +726,7 @@ define("frmConfirmPick", function() {
             "id": "frmConfirmPick",
             "layoutType": kony.flex.FLOW_VERTICAL,
             "needAppMenu": false,
+            "preShow": controller.AS_Form_jbac8c55b1df4679986ffac82e994ea0,
             "skin": "slForm"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,

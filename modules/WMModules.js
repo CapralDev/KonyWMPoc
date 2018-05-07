@@ -8,8 +8,9 @@
 
    function WMGetPickingList(WMNumber, successCallback, errorCallback)
     {
+      printLog("About to call service:"+glbIntegrationServiceName);
        var integrationClient = null;
-       var serviceName = "WMPicking";
+       var serviceName = glbIntegrationServiceName;
        var operationName = "getWMOPENPICKING";
        var params = { "lgnum" : WMNumber};
        var headers = {};
@@ -42,8 +43,11 @@ function WMConfirmPick(data, successcallback, errorcallback)
        trolley		- Trolley number
        pick .   	- P(Partial) C(Complete)
   */
+      
+      printLog("About to call service:"+glbIntegrationServiceName);
+  
        var integrationClient = null;
-       var serviceName = "WMConfirmPick";
+       var serviceName = glbIntegrationServiceName;
        var operationName = "getWMCONFIRMPICKING";
        var params = data;
        var headers = {};
